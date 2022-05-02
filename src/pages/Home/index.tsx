@@ -1,10 +1,15 @@
 import React from 'react';
 
-import { Container } from './styles';
+import logo from '../../utils/Logo.svg';
+
+import { Container, LogoIcon, SubTitle, Title } from './styles';
 
 const Home: React.FC = () => {
   return <Container >
-    <h1>Home</h1>
+    <LogoIcon src={logo}/>
+    <Title fontSize='40px'>LUCAS DALAN</Title>
+    <SubTitle fontSize='20px'>Software Developer</SubTitle>
+
   </ Container>;
 }
 

@@ -1,10 +1,13 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { AboutCard, Container, Title } from './styles';
 
 const About: React.FC = () => {
   return <Container>
-    <h1>About</h1>
+    <Title>About</Title>
+    <AboutCard>
+      
+    </AboutCard>
   </Container>;
 }
 

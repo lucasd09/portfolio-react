@@ -8,9 +8,7 @@ const Layout: React.FC = () => {
   return (
     <Container>
       <Navbar />
-      <Wrapper>
-        <Main />
-      </Wrapper>
+      <Main />
     </Container>
   );
 };

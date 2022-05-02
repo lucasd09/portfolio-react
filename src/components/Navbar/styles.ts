@@ -5,11 +5,13 @@ import {
 } from '../../styles/Icons';
 
 export const Container = styled.div`
-  max-width: 95%;
+  width: 100%;
   margin: 0 auto;
-
+  padding: 10px 50px 0 50px;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
+  position: fixed;
 `;
 
 export const MenuButton = styled.button`
@@ -67,8 +69,8 @@ export const MenuButton = styled.button`
 const iconCSS = css`
   flex-shrink: 0;
 
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   color: var(--white);
 `;
 
