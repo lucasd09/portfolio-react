@@ -74,9 +74,18 @@ const iconCSS = css`
   color: var(--white);
 `;
 
-export const MenuIcon = styled(Menu)`
+export const MenuIconLight = styled(Menu)`
   ${iconCSS}
 `;
+
+export const MenuIconDark = styled(Menu)`
+  flex-shrink: 0;
+
+width: 50px;
+height: 50px;
+color: var(--primary);
+`;
+
 
 export const LogoIcon = styled.img`
   width: 55px;

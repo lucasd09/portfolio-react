@@ -23,7 +23,7 @@ that I must start from the beginning. when I work on  important,
 modern projects I get excited to develop it, making me even more 
 eager to see it working perfectly.</Text>
     </Wrapper>
-  </Container>;
+  </Container>
 }
 
 export default About;

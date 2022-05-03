@@ -1,10 +1,12 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Wrapper } from './styles';
 
 const Knowledge: React.FC = () => {
   return <Container>
-    <h1>Knowledge</h1>
+    <Wrapper>
+      
+    </Wrapper>
   </Container>;
 }
 
