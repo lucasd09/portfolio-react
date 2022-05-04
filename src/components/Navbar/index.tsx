@@ -16,10 +16,12 @@ const Navbar: React.FC = () => {
       setThemechange(false);
     }
   };
+
+  
   window.addEventListener('scroll', changeTheme);
   return <Container>
     <LogoIcon src={themeChange ? logodark : logo}/>
-    <MenuButton>
+    <MenuButton >
       {themeChange ? <MenuIconDark />  : <MenuIconLight />}
     </MenuButton>
     <Sidebar />
