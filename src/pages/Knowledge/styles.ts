@@ -6,7 +6,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid green;
 `;
 
 export const Wrapper = styled.div`
@@ -14,7 +13,6 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   max-width: 1280px;
-  border: 1px solid green;
 
 `;
 
@@ -34,7 +32,6 @@ export const TitleCard = styled.div`
 export const ListContainer = styled.div`
   max-width: 1280px;
   width: 100%;
-  border: 1px solid red;
 `;
 
 export const ListItem = styled.li`
